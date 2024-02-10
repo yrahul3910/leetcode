@@ -61,7 +61,7 @@ for difficulty in ['easy', 'medium', 'hard']:
         problems.append(Problem(difficulty, name))
 
         for topic in topics:
-            if topic not in problems:
+            if topic not in problems_by_topic:
                 problems_by_topic[topic] = []
 
             problems_by_topic[topic].append(Problem(difficulty, name))

@@ -6,6 +6,10 @@ The distance between two points on the X-Y plane is the Euclidean distance (i.e.
 
 You may return the answer in any order. The answer is guaranteed to be unique (except for the order that it is in).
 
+## Topics
+
+Array; Math; Divide and Conquer; Geometry; Sorting; Heap/Priority Queue; Quickselect
+
 # Solution
 
 You could just use 

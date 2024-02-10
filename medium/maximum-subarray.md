@@ -2,6 +2,10 @@
 
 Given an integer array `nums`, find the subarray with the largest sum, and return its sum.
 
+## Topics
+
+Array; Divide and Conquer; Dynamic Programming
+
 ## Example 1:
 
 ```

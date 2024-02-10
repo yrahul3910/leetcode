@@ -4,6 +4,10 @@ Given an `m x n` binary matrix `mat`, return the distance of the nearest 0 for e
 
 The distance between two adjacent cells is 1.
 
+## Tags
+
+Array; Matrix; Dynamic Programming; Breadth-First Search
+
 ## Example 1
 
 ```

@@ -6,6 +6,10 @@ Insert `newInterval` into `intervals` such that `intervals` is still sorted in a
 
 Return intervals after the insertion.
 
+## Topics
+
+Array
+
 ## Example 1:
 
 ```

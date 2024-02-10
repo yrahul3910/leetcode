@@ -2,6 +2,10 @@
 
 Given a string `s`, find the length of the longest substring without repeating characters.
 
+## Topics
+
+Hash Table; String; Sliding Window
+
 ## Example 1:
 
 ```

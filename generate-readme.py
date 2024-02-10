@@ -32,7 +32,7 @@ class Problem:
 
     def __repr__(self):
         name_with_spaces = ' '.join(self.name.split('.')[0].split('-'))
-        return f'* [{self._title_case(name_with_spaces)}]({difficulty}/{self.name}) ![Static Badge](https://img.shields.io/badge/{self.difficulty.capitalize()}-{self.colors[self.difficulty]}?style={self.style})\n'
+        return f'* [{self._title_case(name_with_spaces)}]({self.difficulty}/{self.name}) ![Static Badge](https://img.shields.io/badge/{self.difficulty.capitalize()}-{self.colors[self.difficulty]}?style={self.style})\n'
 
 
 out = open('README.md', 'w')

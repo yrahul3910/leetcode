@@ -15,7 +15,7 @@ class Problem:
         'medium': 'FAC31D',
         'hard': 'EF4444'
     }
-    style = 'flat-square'  
+    style = 'for-the-badge'  
 
     def __init__(self, difficulty: Literal['easy', 'medium', 'hard'], name: str):
         self.difficulty = difficulty

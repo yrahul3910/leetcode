@@ -24,7 +24,7 @@ class Problem:
 
     def __repr__(self):
         name_with_spaces = ' '.join(self.name.split('.')[0].split('-'))
-        return f'* [{self._title_case(name_with_spaces)}]({self.difficulty}/{self.name}) ![Static Badge](https://img.shields.io/badge/{self.difficulty.capitalize()}-{self.colors[self.difficulty]}?style={self.style})\n'
+        return f'[{self._title_case(name_with_spaces)}]({self.difficulty}/{self.name}) ![Static Badge](https://img.shields.io/badge/{self.difficulty.capitalize()}-{self.colors[self.difficulty]}?style={self.style})\n'
 
 
 out = open('README.md', 'w')
@@ -52,8 +52,8 @@ for difficulty in ['easy', 'medium', 'hard']:
 
             problems_by_topic[topic].append(Problem(difficulty, name))
 
-for problem in problems:
-    out.write(str(problem))
+for i, problem in enumerate(problems):
+    out.write(f'{i + 1}. {problem}')
 
 out.write('\n')
 
@@ -61,6 +61,6 @@ out.write('# By topic\n\n')
 for topic in sorted(problems_by_topic.keys()):
     out.write(f'## {topic}\n\n')
     for problem in problems_by_topic[topic]:
-        out.write(str(problem))
+        out.write(f'* {problem}')
     out.write('\n')
 

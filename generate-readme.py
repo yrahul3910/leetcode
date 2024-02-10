@@ -36,9 +36,11 @@ class Problem:
 
 
 out = open('README.md', 'w')
-out.write('# LeetCode Solutions\n\n# Problems by topic\n\n')
+out.write('# LeetCode Solutions\n\n# List of problems\n\n')
 
-problems = {}
+problems_by_topic = {}
+problems = []
+
 for difficulty in ['easy', 'medium', 'hard']:
     __proc = subprocess.Popen(f'ls {difficulty}/*.md', shell=True, cwd=os.getcwd(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     __proc.wait()
@@ -56,15 +58,23 @@ for difficulty in ['easy', 'medium', 'hard']:
         idx = [i for i, line in enumerate(lines) if line.startswith('## Topics')][0]
         topics = lines[idx + 2].strip().split('; ')
 
+        problems.append(Problem(difficulty, name))
+
         for topic in topics:
             if topic not in problems:
-                problems[topic] = []
+                problems_by_topic[topic] = []
 
-            problems[topic].append(Problem(difficulty, name))
+            problems_by_topic[topic].append(Problem(difficulty, name))
 
-for topic in sorted(problems.keys()):
+for problem in problems:
+    out.write(str(problem))
+
+out.write('\n')
+
+out.write('# By topic\n\n')
+for topic in sorted(problems_by_topic.keys()):
     out.write(f'## {topic}\n\n')
-    for problem in problems[topic]:
+    for problem in problems_by_topic[topic]:
         out.write(str(problem))
     out.write('\n')
 

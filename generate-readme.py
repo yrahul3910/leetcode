@@ -55,7 +55,11 @@ for difficulty in ['easy', 'medium', 'hard']:
 
         in_file = open(file, 'r')
         lines = in_file.readlines()
-        idx = [i for i, line in enumerate(lines) if line.startswith('## Topics')][0]
+
+        try:
+            idx = [i for i, line in enumerate(lines) if line.startswith('## Topics')][0]
+        except IndexError:
+            raise ValueError(f'File {file} does not have a topics section.')
         topics = lines[idx + 2].strip().split('; ')
 
         problems.append(Problem(difficulty, name))

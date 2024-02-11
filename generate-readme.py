@@ -42,7 +42,7 @@ problems_by_topic = {}
 problems = []
 
 for difficulty in ['easy', 'medium', 'hard']:
-    __proc = subprocess.Popen(f'ls {difficulty}/*.md', shell=True, cwd=os.getcwd(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    __proc = subprocess.Popen(f'ls {difficulty}/*.md | sort -V', shell=True, cwd=os.getcwd(), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     __proc.wait()
     EXIT_CODE = __proc.returncode
     __comm = __proc.communicate()

@@ -34,7 +34,7 @@ problems_by_topic = {}
 problems = []
 
 for difficulty in ['easy', 'medium', 'hard']:
-    for file in list`ls {difficulty}/*.md`:
+    for file in list`ls {difficulty}/*.md | sort -V`:
         name = file.split('/')[-1]
         if name.strip() == '':
             continue

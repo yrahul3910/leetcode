@@ -6,17 +6,18 @@
 2. [Linked List Cycle](easy/linked-list-cycle.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 3. [Merge Two Sorted Lists](easy/merge-two-sorted-lists.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 4. [Two Sum](easy/two-sum.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
-5. [Valid Palindrome](easy/valid-palindrome.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
-6. [Valid Parentheses](easy/valid-parentheses.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
-7. [Verifying an Alien Dictionary](easy/verifying-an-alien-dictionary.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
-8. [01 Matrix](medium/01-matrix.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-9. [Diagonal Traverse 2](medium/diagonal-traverse-2.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-10. [Diagonal Traverse](medium/diagonal-traverse.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-11. [Insert Interval](medium/insert-interval.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-12. [K Closest Points To Origin](medium/k-closest-points-to-origin.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-13. [Longest Substring Without Repeating Characters](medium/longest-substring-without-repeating-characters.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-14. [Maximum Subarray](medium/maximum-subarray.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-15. [Top K Frequent Elements](medium/top-k-frequent-elements.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+5. [Valid Palindrome 2](easy/valid-palindrome-2.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
+6. [Valid Palindrome](easy/valid-palindrome.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
+7. [Valid Parentheses](easy/valid-parentheses.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
+8. [Verifying an Alien Dictionary](easy/verifying-an-alien-dictionary.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
+9. [01 Matrix](medium/01-matrix.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+10. [Diagonal Traverse 2](medium/diagonal-traverse-2.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+11. [Diagonal Traverse](medium/diagonal-traverse.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+12. [Insert Interval](medium/insert-interval.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+13. [K Closest Points To Origin](medium/k-closest-points-to-origin.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+14. [Longest Substring Without Repeating Characters](medium/longest-substring-without-repeating-characters.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+15. [Maximum Subarray](medium/maximum-subarray.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+16. [Top K Frequent Elements](medium/top-k-frequent-elements.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 
 # By topic
 
@@ -60,6 +61,10 @@
 ## Geometry
 
 * [K Closest Points To Origin](medium/k-closest-points-to-origin.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+
+## Greedy
+
+* [Valid Palindrome 2](easy/valid-palindrome-2.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 
 ## Hash Table
 
@@ -114,6 +119,7 @@
 
 ## String
 
+* [Valid Palindrome 2](easy/valid-palindrome-2.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 * [Valid Palindrome](easy/valid-palindrome.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 * [Valid Parentheses](easy/valid-parentheses.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 * [Verifying an Alien Dictionary](easy/verifying-an-alien-dictionary.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
@@ -122,5 +128,6 @@
 ## Two Pointers
 
 * [Linked List Cycle](easy/linked-list-cycle.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
+* [Valid Palindrome 2](easy/valid-palindrome-2.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 * [Valid Palindrome](easy/valid-palindrome.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 

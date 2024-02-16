@@ -36,7 +36,13 @@ class Problem:
 
 
 out = open('README.md', 'w')
-out.write('# LeetCode Solutions\n\n# List of problems\n\n')
+out.write('# LeetCode Solutions\n\n')
+out.write('# Auto-generation\n\n')
+out.write('This file is auto-generated. Do not edit it directly. To update it, run\n\n')
+out.write('```\npysh generate-readme.pysh -o generate-readme.py\n```\n\n')
+out.write('This is based on [`pysh`](https://github.com/yrahul3910/pysh). If you do not have that installed, you can instead use\n\n')
+out.write('```bash\npython3 generate-readme.py\n```\n\n')
+out.write('# List of problems\n\n')
 
 problems_by_topic = {}
 problems = []

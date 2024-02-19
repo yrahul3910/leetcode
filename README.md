@@ -36,14 +36,15 @@ python3 generate-readme.py
 18. [Diagonal Traverse](medium/diagonal-traverse.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 19. [Diagonal Traverse 2](medium/diagonal-traverse-2.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 20. [Evaluate Division](medium/evaluate-division.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-21. [Insert Interval](medium/insert-interval.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-22. [K Closest Points To Origin](medium/k-closest-points-to-origin.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-23. [Longest Substring Without Repeating Characters](medium/longest-substring-without-repeating-characters.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-24. [Maximum Subarray](medium/maximum-subarray.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-25. [Minimum Add To Make Valid Parentheses](medium/minimum-add-to-make-valid-parentheses.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-26. [Single Element In a Sorted Array](medium/single-element-in-a-sorted-array.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-27. [Subarray Sum Equals K](medium/subarray-sum-equals-k.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
-28. [Top K Frequent Elements](medium/top-k-frequent-elements.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+21. [House Robber](medium/house-robber.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+22. [Insert Interval](medium/insert-interval.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+23. [K Closest Points To Origin](medium/k-closest-points-to-origin.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+24. [Longest Substring Without Repeating Characters](medium/longest-substring-without-repeating-characters.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+25. [Maximum Subarray](medium/maximum-subarray.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+26. [Minimum Add To Make Valid Parentheses](medium/minimum-add-to-make-valid-parentheses.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+27. [Single Element In a Sorted Array](medium/single-element-in-a-sorted-array.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+28. [Subarray Sum Equals K](medium/subarray-sum-equals-k.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+29. [Top K Frequent Elements](medium/top-k-frequent-elements.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 
 # By topic
 
@@ -61,6 +62,7 @@ python3 generate-readme.py
 * [Diagonal Traverse](medium/diagonal-traverse.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 * [Diagonal Traverse 2](medium/diagonal-traverse-2.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 * [Evaluate Division](medium/evaluate-division.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+* [House Robber](medium/house-robber.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 * [Insert Interval](medium/insert-interval.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 * [K Closest Points To Origin](medium/k-closest-points-to-origin.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 * [Maximum Subarray](medium/maximum-subarray.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
@@ -114,6 +116,7 @@ python3 generate-readme.py
 * [Min Cost Climbing Stairs](easy/min-cost-climbing-stairs.md) ![Static Badge](https://img.shields.io/badge/Easy-10B981?style=for-the-badge)
 * [01 Matrix](medium/01-matrix.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 * [Coin Change](medium/coin-change.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
+* [House Robber](medium/house-robber.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 * [Maximum Subarray](medium/maximum-subarray.md) ![Static Badge](https://img.shields.io/badge/Medium-FAC31D?style=for-the-badge)
 
 ## Geometry
